@@ -10,7 +10,15 @@ body * {
   box-sizing: border-box;
 }
 
-header img {
+header, main {
+  border-bottom: #FDEFEF 2px solid;
+}
+
+footer {
+  padding: 2ex;
+}
+
+header img, main img {
   width: 100%;
   max-width: 1920px;
   display: block;
