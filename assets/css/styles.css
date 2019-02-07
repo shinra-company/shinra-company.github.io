@@ -7,3 +7,9 @@ body {
 body * {
   box-sizing: border-box;
 }
+
+header img {
+  width: 100%;
+  max-width: 1920px;
+  background-color: #021010;
+}
