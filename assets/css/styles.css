@@ -30,3 +30,9 @@ footer>p.copyright {
   font-size: smaller;
   text-align: center;
 }
+
+aside {
+  position: fixed;
+  right: 2em;
+  bottom: 5em;
+}
