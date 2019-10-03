@@ -50,6 +50,10 @@ aside:last-of-type {
   flex-wrap: wrap;
 }
 
+aside:last-of-type>* {
+  margin: 0.25em auto;
+}
+
 aside>iframe {
   max-width: 100%;
   max-height: 100%;
