@@ -49,6 +49,7 @@ aside:last-of-type {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 aside:last-of-type>* {
