@@ -48,12 +48,10 @@ aside:last-of-type {
   bottom: 0;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
 }
 
-aside:last-of-type>*:not(:last-child) {
-  margin: 1em auto;
+aside:last-of-type>* {
+  margin: 0 auto 1em auto;
 }
 
 aside>iframe {
