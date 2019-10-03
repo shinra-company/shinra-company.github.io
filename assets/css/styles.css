@@ -10,7 +10,8 @@ body * {
   box-sizing: border-box;
 }
 
-header, main {
+header,
+main {
   border-bottom: #FDEFEF 2px solid;
 }
 
@@ -18,7 +19,8 @@ footer {
   padding: 2ex;
 }
 
-header img, main img {
+header img,
+main img {
   width: 100%;
   max-width: 1920px;
   display: block;
@@ -32,9 +34,18 @@ footer>p.copyright {
 }
 
 aside {
-    position: fixed;
-    right:0;
-    bottom: 0;
+  position: fixed;
+}
+
+aside:first-of-type {
+  right: 0;
+  bottom: 0;
+}
+
+aside:last-of-type {
+  display: flex;
+  left: 0;
+  bottom: 0;
 }
 
 aside>iframe {
