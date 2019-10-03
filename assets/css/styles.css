@@ -48,6 +48,7 @@ aside:last-of-type {
   bottom: 0;
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 aside:last-of-type>* {
