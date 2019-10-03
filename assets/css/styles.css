@@ -35,17 +35,16 @@ footer>p.copyright {
 
 aside {
   position: fixed;
+  bottom: 3ex;
 }
 
 aside:first-of-type {
-  right: 0;
-  bottom: 0;
+  right: 1em;
 }
 
 aside:last-of-type {
   display: flex;
-  left: 0;
-  bottom: 0;
+  left: 1em;
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -57,4 +56,26 @@ aside:last-of-type>* {
 aside>iframe {
   max-width: 100%;
   max-height: 100%;
+}
+
+@media screen and (max-width: 540px) {
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    bottom: 2%;
+    left: 5%;
+    right: 5%;
+  }
+
+  aside,
+  aside:first-of-type,
+  aside:last-of-type {
+    max-width: 90%;
+    position: unset;
+    left: unset;
+    right: unset;
+    bottom: unset;
+  }
 }
