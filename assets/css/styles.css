@@ -46,6 +46,7 @@ aside:last-of-type {
   display: flex;
   left: 0;
   bottom: 0;
+  align-items: center;
 }
 
 aside>iframe {
