@@ -51,7 +51,7 @@ aside:last-of-type {
 }
 
 aside:last-of-type>* {
-  margin: 0.25em auto;
+  margin: 0.5em auto;
 }
 
 aside>iframe {
