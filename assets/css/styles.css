@@ -52,7 +52,7 @@ aside:last-of-type {
   justify-content: flex-end;
 }
 
-aside:last-of-type>* {
+aside:last-of-type>*:not(:last-child) {
   margin: 1em auto;
 }
 
